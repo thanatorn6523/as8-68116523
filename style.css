@@ -1,0 +1,43 @@
+.banner{
+    background-image: url('https://cdn.pixabay.com/photo/2025/10/02/09/24/snail-9868046_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column; /* จัดข้อความลงบรรทัด */
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+.banner h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.banner p{
+    font-size: 1.3rem;
+}
+
+section{
+    padding: 60px 0;
+}
+
+/* ทำให้รูป card สูงเท่ากัน */
+.card img{
+    height: 220px;
+    object-fit: cover;
+}
+
+/* เพิ่ม hover ให้ card */
+.card{
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
